@@ -1,0 +1,15 @@
+{
+  "name": "namastreactpractice",
+  "version": "1.0.0",
+  "description": "practicing namaste react",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(github.com/ankitxcoding/namasteReact)"
+  },
+  "author": "Ankit Sharma",
+  "license": "ISC"
+}
