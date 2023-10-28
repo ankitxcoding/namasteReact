@@ -2,14 +2,21 @@
   "name": "namastreactpractice",
   "version": "1.0.0",
   "description": "practicing namaste react",
-  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "(github.com/ankitxcoding/namasteReact)"
+    "url": "github.com/ankitxcoding/namasteReact"
   },
   "author": "Ankit Sharma",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
