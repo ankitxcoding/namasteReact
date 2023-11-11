@@ -18,7 +18,7 @@ const Header=()=> {
     )
 }
 
-const resList=[
+const resData=[
     {
         "info": {
         "id": "234903",
@@ -1112,6 +1112,31 @@ const resList=[
     }
 ];
 
+const ResList=(props)=> {
+    const {resDetails}=props;
+
+    const{
+        cloudinaryImageId,
+        name,
+        avgRating,
+        cuisines,
+        costForTwo,
+        deliveryTime
+    }=resDetails?.info;
+
+    return (
+        <div className="resCard">
+            <img src={ "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/" +
+          cloudinaryImageId} alt="resImg"/>
+          <h3>{name}</h3>
+          <h4>{cuisines.join(", ")}</h4>
+          <h4>{avgRating}</h4>
+          <h4>{costForTwo}</h4>
+          <h4>{deliveryTime}</h4>
+        </div>
+    )
+}
+
 const Body=()=> {
     return (
         <div className="body">
@@ -1119,7 +1144,9 @@ const Body=()=> {
                 <input type="search" id="search" name="Search Here..." />
                 <button>Search</button>
             </div>
-            <div id="res-container"></div>
+            <div className="resContainer">
+                {resData.map(restaurant=><ResList resDetails={restaurant}/>)}
+            </div>
         </div>
     )
 }
