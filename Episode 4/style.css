@@ -29,12 +29,36 @@
 .resContainer {
     display: flex;
     flex-wrap: wrap;
+    align-content: space-between;
 }
 
 .resCard {
-    width: 30em;
+    width: 12em;
+    margin: 0.5em;
+    background: #f0f0f0;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.resCard:hover {
+    border: 1px solid #000;
+    cursor: pointer;
 }
 
 .resCard img {
-    width: 40%;
+    width: 100%;
+}
+
+.resCard h3, h4 {
+    padding: 0 0.5em 0 0.5em;
+}
+
+.body {
+    padding: 1em;
+}
+
+.search {
+    margin: 0 1.5em 1.5em 0;
+    padding: 0 1.5em 1.5em 0;
 }
