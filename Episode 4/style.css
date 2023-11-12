@@ -39,11 +39,13 @@
     border: 1px solid transparent;
     border-radius: 1em;
     overflow: hidden;
+    transition: transform .2s;
 }
 
 .resCard:hover {
     border: 1px solid #000;
     cursor: pointer;
+    transform: scale(1.02);
 }
 
 .resCard img {
