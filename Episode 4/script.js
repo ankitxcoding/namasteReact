@@ -3159,7 +3159,7 @@ const Body=()=> {
                 <button>Search</button>
             </div>
             <div className="resContainer">
-                {resData.map(restaurant=><ResList resDetails={restaurant}/>)}
+                {resData.map((restaurant, index)=>(<ResList key={`${restaurant.id}-${index}`} resDetails={restaurant}/>))}
             </div>
         </div>
     )
