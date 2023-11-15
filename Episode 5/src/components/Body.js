@@ -9,7 +9,7 @@ const Body=()=> {
                 <button>Search</button>
             </div>
             <div className="resContainer">
-                {resData.map((restaurant, index)=>(<ResList key={`${restaurant.id}-${index}`} resDetails={restaurant}/>))}
+                {resData.map(restaurant=><ResList key={restaurant.info.id} resDetails={restaurant}/>)}
             </div>
         </div>
     )
