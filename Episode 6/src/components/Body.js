@@ -1,5 +1,6 @@
 import ResList from "./ResList";
 import { useEffect, useState } from "react";
+import Shimmer from "./Shimmer";
 
 const Body=()=> {
     const [listOfRes, setListOfRes]=useState([]);
@@ -14,7 +15,7 @@ const Body=()=> {
         setListOfRes(json?.data?.success?.cards[4]?.gridWidget?.gridElements?.infoWithStyle?.restaurants);
     }
 
-    return (
+    return (listOfRes.length===0)? <Shimmer /> : (
         <div className="body">
             <div className="search">
                 <button className="btn" onClick={()=>{
