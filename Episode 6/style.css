@@ -79,7 +79,7 @@
 
 .shimmerCard {
     width: 12em;
-    height: 20em;
+    height: 25em;
     margin: 0.5em;
     background: #e7e7e7;
     border-radius: 1em;
@@ -132,5 +132,14 @@
     background: #c9c9c9;
     color: transparent;
     width: 60%;
+    margin-left: 0.5em;
+}
+
+.shimmerDeliveryTime {
+    margin-top: 1.5em;
+    font-size: 1em;
+    background: #c9c9c9;
+    color: transparent;
+    width: 50%;
     margin-left: 0.5em;
 }

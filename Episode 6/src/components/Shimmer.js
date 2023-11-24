@@ -11,6 +11,7 @@ const Shimmer=()=> {
                 <div className="shimmerCuisins">.</div>
                 <div className="shimmerAvgRating">.</div>
                 <div className="shimmerCostForTwo">.</div>
+                <div className="shimmerDeliveryTime">.</div>
             </div>
             <div className="shimmerCard">
                 <div className="shimmerImg">.......</div>
@@ -18,6 +19,7 @@ const Shimmer=()=> {
                 <div className="shimmerCuisins">.</div>
                 <div className="shimmerAvgRating">.</div>
                 <div className="shimmerCostForTwo">.</div>
+                <div className="shimmerDeliveryTime">.</div>
             </div>
             <div className="shimmerCard">
                 <div className="shimmerImg">.......</div>
@@ -25,6 +27,7 @@ const Shimmer=()=> {
                 <div className="shimmerCuisins">.</div>
                 <div className="shimmerAvgRating">.</div>
                 <div className="shimmerCostForTwo">.</div>
+                <div className="shimmerDeliveryTime">.</div>
             </div>
             <div className="shimmerCard">
                 <div className="shimmerImg">.......</div>
@@ -32,6 +35,7 @@ const Shimmer=()=> {
                 <div className="shimmerCuisins">.</div>
                 <div className="shimmerAvgRating">.</div>
                 <div className="shimmerCostForTwo">.</div>
+                <div className="shimmerDeliveryTime">.</div>
             </div>
             <div className="shimmerCard">
                 <div className="shimmerImg">.......</div>
@@ -39,6 +43,7 @@ const Shimmer=()=> {
                 <div className="shimmerCuisins">.</div>
                 <div className="shimmerAvgRating">.</div>
                 <div className="shimmerCostForTwo">.</div>
+                <div className="shimmerDeliveryTime">.</div>
             </div>
             <div className="shimmerCard">
                 <div className="shimmerImg">.......</div>
@@ -46,6 +51,7 @@ const Shimmer=()=> {
                 <div className="shimmerCuisins">.</div>
                 <div className="shimmerAvgRating">.</div>
                 <div className="shimmerCostForTwo">.</div>
+                <div className="shimmerDeliveryTime">.</div>
             </div>
             <div className="shimmerCard">
                 <div className="shimmerImg">.......</div>
@@ -53,6 +59,7 @@ const Shimmer=()=> {
                 <div className="shimmerCuisins">.</div>
                 <div className="shimmerAvgRating">.</div>
                 <div className="shimmerCostForTwo">.</div>
+                <div className="shimmerDeliveryTime">.</div>
             </div>
             <div className="shimmerCard">
                 <div className="shimmerImg">.......</div>
@@ -60,6 +67,7 @@ const Shimmer=()=> {
                 <div className="shimmerCuisins">.</div>
                 <div className="shimmerAvgRating">.</div>
                 <div className="shimmerCostForTwo">.</div>
+                <div className="shimmerDeliveryTime">.</div>
             </div>
             <div className="shimmerCard">
                 <div className="shimmerImg">.......</div>
@@ -67,6 +75,7 @@ const Shimmer=()=> {
                 <div className="shimmerCuisins">.</div>
                 <div className="shimmerAvgRating">.</div>
                 <div className="shimmerCostForTwo">.</div>
+                <div className="shimmerDeliveryTime">.</div>
             </div>
             <div className="shimmerCard">
                 <div className="shimmerImg">.......</div>
@@ -74,6 +83,7 @@ const Shimmer=()=> {
                 <div className="shimmerCuisins">.</div>
                 <div className="shimmerAvgRating">.</div>
                 <div className="shimmerCostForTwo">.</div>
+                <div className="shimmerDeliveryTime">.</div>
             </div>
             <div className="shimmerCard">
                 <div className="shimmerImg">.......</div>
@@ -81,6 +91,7 @@ const Shimmer=()=> {
                 <div className="shimmerCuisins">.</div>
                 <div className="shimmerAvgRating">.</div>
                 <div className="shimmerCostForTwo">.</div>
+                <div className="shimmerDeliveryTime">.</div>
             </div>
             <div className="shimmerCard">
                 <div className="shimmerImg">.......</div>
@@ -88,6 +99,7 @@ const Shimmer=()=> {
                 <div className="shimmerCuisins">.</div>
                 <div className="shimmerAvgRating">.</div>
                 <div className="shimmerCostForTwo">.</div>
+                <div className="shimmerDeliveryTime">.</div>
             </div>
             <div className="shimmerCard">
                 <div className="shimmerImg">.......</div>
@@ -95,6 +107,7 @@ const Shimmer=()=> {
                 <div className="shimmerCuisins">.</div>
                 <div className="shimmerAvgRating">.</div>
                 <div className="shimmerCostForTwo">.</div>
+                <div className="shimmerDeliveryTime">.</div>
             </div>
             <div className="shimmerCard">
                 <div className="shimmerImg">.......</div>
@@ -102,6 +115,7 @@ const Shimmer=()=> {
                 <div className="shimmerCuisins">.</div>
                 <div className="shimmerAvgRating">.</div>
                 <div className="shimmerCostForTwo">.</div>
+                <div className="shimmerDeliveryTime">.</div>
             </div>
         </div>
         </>

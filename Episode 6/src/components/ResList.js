@@ -9,7 +9,7 @@ const ResList=(props)=> {
         avgRating,
         cuisines,
         costForTwo,
-        deliveryTime
+        sla: {deliveryTime}
     }=resDetails?.info;
 
     return (
@@ -20,7 +20,7 @@ const ResList=(props)=> {
           <h4>{cuisines.join(", ")}</h4>
           <h4>{avgRating}</h4>
           <h4>{costForTwo}</h4>
-          <h4>{deliveryTime}</h4>
+          <h4>{deliveryTime+" minutes"}</h4>
         </div>
     )
 }
