@@ -24,6 +24,7 @@
 .navbar ul li {
     padding: 1em;
     font-size: 1.2em;
+    cursor: pointer;
 }
 
 .resContainer {
@@ -60,12 +61,18 @@
     padding: 1em;
 }
 
-.search {
+.btn {
     margin: 0 1.5em 1.5em 0;
     padding: 0 1.5em 1.5em 0;
+    display: flex;
 }
 
-.btn {
+.filterTop {
+    cursor: pointer;
+    margin-left: 2em;
+}
+
+.searchBtn {
     cursor: pointer;
 }
 
