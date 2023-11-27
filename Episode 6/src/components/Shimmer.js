@@ -2,7 +2,8 @@ const Shimmer=()=> {
     return (
         <>
         <div className="topResShimmer">
-            <button className="shimmerBtn">Top Restaurant</button>
+            <div className="shimmerBtn1">Search</div>
+            <button className="shimmerBtn2">Top Restaurant</button>
         </div>
         <div className="shimmerContainer">
             <div className="shimmerCard">

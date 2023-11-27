@@ -93,9 +93,19 @@
     overflow: hidden;
 }
 
-.shimmerBtn {
+.shimmerBtn1 {
     background: #e7e7e7;
     color: transparent;
+    border: none;
+    margin-top: 1em;
+    margin-left: 1em;
+    width: 10em;
+}
+
+.shimmerBtn2 {
+    background: #e7e7e7;
+    color: transparent;
+    border: none;
     margin-top: 1em;
     margin-left: 1em;
 }
@@ -158,4 +168,8 @@
     margin: 0;
     padding: 1em;
     font-size: 1em;
+}
+
+.topResShimmer {
+    display: flex;
 }
