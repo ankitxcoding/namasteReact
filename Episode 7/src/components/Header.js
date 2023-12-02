@@ -12,6 +12,8 @@ const Header=()=> {
             <div className="navbar">
                 <ul>
                     <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
                     <li>Account</li>
                     <li>Cart</li>
                     <button className="loginBtn" onClick={()=> {
