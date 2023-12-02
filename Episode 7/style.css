@@ -1,0 +1,175 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 10px;
+}
+
+.logo img{
+    width: 5em;
+    padding: 25px 0;
+}
+
+.navbar {
+    display: inline-block;
+    padding: 20px 0;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    padding: 1em;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.resContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.resCard {
+    width: 12em;
+    margin: 0.5em;
+    background: #e7e7e7;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    overflow: hidden;
+    transition: transform .2s;
+}
+
+.resCard:hover {
+    border: 1px solid #000;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.resCard img {
+    width: 100%;
+}
+
+.resCard h3, h4 {
+    padding: 0 0.5em 0 0.5em;
+}
+
+.body {
+    padding: 1em;
+}
+
+.btn {
+    margin: 0 1.5em 1.5em 0;
+    padding: 0 1.5em 1.5em 0;
+    display: flex;
+}
+
+.filterTop {
+    cursor: pointer;
+    margin-left: 2em;
+}
+
+.searchBtn {
+    cursor: pointer;
+}
+
+.shimmerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-top: 3em;
+    margin-left: 1em;
+}
+
+.shimmerCard {
+    width: 12em;
+    height: 25em;
+    margin: 0.5em;
+    background: #e7e7e7;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.shimmerBtn1 {
+    background: #e7e7e7;
+    color: transparent;
+    border: none;
+    margin-top: 1em;
+    margin-left: 1em;
+    width: 10em;
+}
+
+.shimmerBtn2 {
+    background: #e7e7e7;
+    color: transparent;
+    border: none;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.shimmerImg {
+    font-size: 6em;
+    background: #c9c9c9;
+    color: transparent;
+}
+
+.shimmerName {
+    margin-top: 1.5em;
+    font-size: 1em;
+    background: #c9c9c9;
+    color: transparent;
+    width: 70%;
+    margin-left: 0.5em;
+}
+
+.shimmerCuisins {
+    margin-top: 1.5em;
+    font-size: 1em;
+    background: #c9c9c9;
+    color: transparent;
+    width: 80%;
+    margin-left: 0.5em;
+}
+
+.shimmerAvgRating {
+    margin-top: 1.5em;
+    font-size: 1em;
+    background: #c9c9c9;
+    color: transparent;
+    width: 20%;
+    margin-left: 0.5em;
+}
+
+.shimmerCostForTwo {
+    margin-top: 1.5em;
+    font-size: 1em;
+    background: #c9c9c9;
+    color: transparent;
+    width: 60%;
+    margin-left: 0.5em;
+}
+
+.shimmerDeliveryTime {
+    margin-top: 1.5em;
+    font-size: 1em;
+    background: #c9c9c9;
+    color: transparent;
+    width: 50%;
+    margin-left: 0.5em;
+}
+
+.loginBtn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 1em;
+    font-size: 1em;
+}
+
+.topResShimmer {
+    display: flex;
+}
