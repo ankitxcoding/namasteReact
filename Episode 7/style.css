@@ -27,6 +27,14 @@
     cursor: pointer;
 }
 
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #3391ff;
+}
+
 .resContainer {
     display: flex;
     flex-wrap: wrap;
@@ -162,12 +170,17 @@
 }
 
 .loginBtn {
+    color: #fff;
     border: none;
     background: none;
     cursor: pointer;
     margin: 0;
     padding: 1em;
     font-size: 1em;
+}
+
+.loginBtn:hover {
+    color: #3391ff;
 }
 
 .topResShimmer {
